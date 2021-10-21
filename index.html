@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Da Pick Packs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +66,7 @@
 
     <!-- about me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title-about">Who I am</h2>
+        <h2 class="section__title section__title--about">Who I am</h2>
         <p class="section__subtitle section__subtitle--about">Director of After School</p>
 
         <div class="about-me__body">
@@ -79,55 +79,64 @@
 
     <!-- My Work  -->
     <section class="my-work" id="work">
-        <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my work</p>
 
         <!-- portfolio item 01  -->
         <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <img src="https://picsum.photos/400?random=1" alt="portfolio__img">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://picsum.photos/400?random=1" class="portfolio__img">
             </a>
-        </div>
 
         <!-- portfolio item 02  -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <img src="https://picsum.photos/400?random=2" alt="portfolio__img">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://picsum.photos/400?random=2" class="portfolio__img">
             </a>
-        </div>
 
         <!-- portfolio item 03  -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <img src="https://picsum.photos/400?random=3" alt="portfolio__img">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://picsum.photos/400?random=3" class="portfolio__img">
             </a>
-        </div>
 
         <!-- portfolio item 04  -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <img src="https://picsum.photos/400?random=4" alt="portfolio__img">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://picsum.photos/400?random=4" class="portfolio__img">
             </a>
-        </div>
 
         <!-- portfolio item 05  -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <img src="https://picsum.photos/400?random=5" alt="portfolio__img">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="https://picsum.photos/400?random=5" class="portfolio__img">
             </a>
         </div>
     </section>
 
     <!-- footer -->
-    <footer>
+    <footer class="footer">
         <a href="mailto:nicole.r.lane@gmail.com" class="footer__link">nicole.r.lane@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="https://www.linkedin.com/in/nicole-lane-b0968714a/" class="social-list__list">a</a></li>
-            <li class="social-list__item"><a href="https://www.youtube.com/" class="social-list__list">b</a></li>
-            <li class="social-list__item"><a href="https://en.wikipedia.org/wiki/Animal_Collective" class="social-list__list">c</a></li>
-            <li class="social-list__item"><a href="https://en.wikipedia.org/wiki/Tame_Impala" class="social-list__list">d</a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/nicole-lane-b0968714a/" >
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.youtube.com/" >
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://en.wikipedia.org/wiki/Animal_Collective" >
+                    <i class="fab fa-bitcoin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://en.wikipedia.org/wiki/Tame_Impala" >
+                    <i class="fab fa-apple"></i>
+                </a>
+            </li>
         </ul>
     </footer>
 
+    <script src="/js/index.js"></script>
 </body>
 </html>
